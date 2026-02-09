@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="container-fluid">
+    <div class="container-fluid mt-4">
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h2>Estados de México</h2>
             <button id="btn-synchronize" class="btn btn-primary btn-sm">
