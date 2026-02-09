@@ -1,7 +1,7 @@
-import './bootstrap';
 
 import Alpine from 'alpinejs';
-import 'bootstrap/dist/css/bootstrap.min.css';
+window.Alpine = Alpine;
+Alpine.start();
 
 import $ from 'jquery';
 window.$ = window.jQuery = $;
@@ -13,7 +13,3 @@ import 'datatables.net-bs5';
 // Bootstrap JS
 import * as bootstrap from 'bootstrap';
 window.bootstrap = bootstrap;
-
-window.Alpine = Alpine;
-Alpine.start();
-
